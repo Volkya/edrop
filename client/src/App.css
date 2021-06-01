@@ -1,0 +1,114 @@
+/* Aca el estilo en general de la web*/
+
+body{
+    /*background-color: #e6bc94;*/
+}
+
+nav, nav a{
+    /*background-color: #c56e9d;*/
+    /*color: white;*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Components styles*/
+
+.fiscal-img{
+    width: 80px !important;
+}
+
+.logonav{
+    width:200px;
+    /*height: 0px;*/
+}
+
+.copyright {
+    /*background-color: #3a3737;*/
+    /*font-size: 1.2rem;*/
+    font-family: "Franklin Gothic Medium";
+    color: #000;
+}
+
+hr.dashed {
+    border-bottom: 2px dashed #999;
+}
+
+hr.divider{
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: darkturquoise;
+}
+
+hr.divider2{
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: orangered;
+}
+
+.dashed {
+    border-bottom: 2px dashed #999;
+}
+
+.navbar{
+    /*padding-left: 0 !important;*/
+    /*padding-top: 0;*/
+    /*padding-bottom: 4rem;*/
+    /*padding-right: 5rem!important;*/
+    /*margin: 0 !important;*/
+    border-bottom: 4px solid 	darkturquoise;
+    /*height: 4rem!important;*/
+}
+
+.bg-second{
+    /*background-color: #1f2d41;*/
+    /*background-color: black;*/
+    color: black;
+}
+
+.bg-dark{
+    background-color: black!important;
+}
+
+.bg-main{
+    background-color: black;
+    color: white;
+}
+.bg-main a{
+    color: white !important;
+    font-weight: bolder;
+}
+
+.title-primary{
+    color: orangered;
+}
+
+.title-second{
+    color: #00cfd5;
+}
+
+.btn-category{
+    display: block;
+    background-color: cyan;
+    width: 25%;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    color: white;
+}
+.btn-category-group{
+    width: 100%;
+    background-color: cyan;
+    color: white;
+}
